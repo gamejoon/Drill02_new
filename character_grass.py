@@ -30,16 +30,15 @@ def run_circle():
 def run_rectangle():
     print("RECTANGLE")
     
-    for x in range(50, 750 + 1, 10):
-        render_frame(x, 90)
+    #for x in range(50, 750 + 1, 10):
+        #render_frame(x, 90)
     
     for x in range(750, 50 - 1, -10):
-        render_frame(x, 90)
+        render_frame(x, 550)
 
 while (True):
-    run_circle()
     run_rectangle()
-    
+    #run_circle()
     break
 
 close_canvas()
