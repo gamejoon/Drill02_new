@@ -44,7 +44,6 @@ def run_rectangle():
 
 while (True):
     run_rectangle()
-    #run_circle()
-    break
+    run_circle()
 
 close_canvas()
